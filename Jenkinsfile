@@ -24,7 +24,7 @@ pipeline
                     }
                 }
             }	
-=======
+
 pipeline {
     agent any
         stages {
@@ -41,5 +41,5 @@ pipeline {
                 }
             }
         }
->>>>>>> 2be73dc0206e7b32d98c7c9dec84b96bd0a9b2eb
+
 }
