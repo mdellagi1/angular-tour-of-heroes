@@ -17,7 +17,7 @@ pipeline
 		
 	        }
 
-            stage('Build') {
+                stage('Build'){
                 steps{
                     script{
                         sh "ansible-playbook angular-tour-of-heroes/ansible/build.yml -i angular-tour-of-heroes/ansible/inventory/host.yml"
