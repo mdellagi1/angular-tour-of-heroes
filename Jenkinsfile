@@ -7,7 +7,7 @@ pipeline
 	          	script{
 		           checkout([$class: 'GITSCM', branches: [[name: '/master']],
 	                         	userRemoteConfigs: [[
-						credentialsId:'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',
+						credentialsId:'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',
 			                        url:'https://github.com/mdellagi1/angular-tour-of-heroes.git'
 			]]
 			])
@@ -15,7 +15,7 @@ pipeline
 		      }
 		}
 		
-	        }
+	        
 
                 stage('Build'){
                 steps{
@@ -25,4 +25,5 @@ pipeline
                 }
             }	
 
+}
 }
